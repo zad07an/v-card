@@ -81,6 +81,18 @@ export const UserName = styled.h3`
   text-transform: uppercase;
   color: #fffcff;
   letter-spacing: 1px;
+  animation: userNameAnimate 3s cubic-bezier(0.215, 0.610, 0.355, 1) infinite alternate;
+
+  @keyframes userNameAnimate{
+    from{
+      color: #C04C71;
+      filter: drop-shadow(0 0 15px #C04C71);
+    }
+    to{
+      color: #FCBE67;
+      filter: drop-shadow(0 0 15px #FCBE67);
+    }
+  }
 
   span {
     letter-spacing: 1px;

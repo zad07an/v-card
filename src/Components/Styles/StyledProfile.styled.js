@@ -7,12 +7,15 @@ const StyledProfile = styled.div`
   border-radius: 25%;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 400ms width 400ms height 400ms;
+  transition: all ease 0.3s;
+  filter: drop-shadow(0 0 10px #C04C71);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 
 	&.openPic{
 		width: 320px;
 		height: 320px;
 		margin-bottom: 30px;
+    box-shadow: 0px 15px 30px 5px #FCBE67;
 	}
 
 
