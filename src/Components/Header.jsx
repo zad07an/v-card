@@ -13,7 +13,7 @@ export default function Header() {
     <>
     <StyledHeader  >
       <StyledProfile>
-        <Image src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+        <Image src="https://avatars.githubusercontent.com/u/107490932?s=400&u=04e0e071fecb348a85b1c790edd063bb3eefc081&v=4" />
       </StyledProfile>
       <StyledUserName>
         <HeyThereBox>
