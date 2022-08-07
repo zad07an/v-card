@@ -10,9 +10,8 @@ export const StyledBody = styled.div`
   gap: 30px;
   padding-top: 60px;
   /* padding-bottom: 60px; */
-  background: #302399;
-  border-top-left-radius: 55px;
-  border-top-right-radius: 55px;
+  background: #343740;
+
   
 
 
@@ -52,7 +51,7 @@ export const StyledBody = styled.div`
   div {
     padding: 30px 20px 30px 20px;
     width: 90%;
-    background: #0e0f26;
+    background: #FCBE67;
     border-radius: 15px;
   }
 
@@ -79,7 +78,7 @@ export const StyledBody = styled.div`
 export const BodyBox = styled.div`
   padding: 30px 20px 30px 20px;
   width: 90%;
-  background: #0e0f26;
+  background: #FCBE67;
   border-radius: 15px;
   transition: 0.5s;
 

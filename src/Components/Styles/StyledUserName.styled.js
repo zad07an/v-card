@@ -4,7 +4,7 @@ export const StyledUserName = styled.div`
 
   width: 100%;
   height: 200px;
-  background: #5f23a5;
+  background: #343740;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,12 +14,11 @@ export const StyledUserName = styled.div`
 
 
 
-
 @media (max-width: 412px) {
 
   width: 100%;
   height: 200px;
-  background: #5f23a5;
+  background: #343740;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,8 +77,10 @@ export const UserName = styled.h3`
 
 
   font-size: 40px;
-  font-family: Maven Pro;
+  font-family: Palanquin Dark;
+  text-transform: uppercase;
   color: #fffcff;
+  letter-spacing: 1px;
 
   span {
     letter-spacing: 1px;
@@ -92,7 +93,8 @@ export const UserName = styled.h3`
 
 
     font-size: 40px;
-    font-family: Maven Pro;
+    font-family: Palanquin Dark;
+//    text-transform: uppercase;
     color: #fffcff;
 
     span {

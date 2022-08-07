@@ -12,14 +12,14 @@ export const StyledSticky = styled.i`
   align-items: center;
   
   z-index: 1000;
-  background: #302399;
+  background: #343740;
   border-bottom-left-radius: 55px;
   border-bottom-right-radius: 55px;
 
 
 .icon{
   font-size: 35px;
-  color: #fffcff;
+  color: #FCBE67;
   cursor: pointer;
   animation: stickyIcon 1s infinite alternate;
 }

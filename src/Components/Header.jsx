@@ -18,9 +18,9 @@ export default function Header() {
       <StyledUserName>
         <HeyThereBox>
           <HeyThere>Hey There!</HeyThere>
-          <img src="https://cdn-icons-png.flaticon.com/512/2165/2165797.png" alt="Hello Icon" />
+          <img src="https://cdn-icons-png.flaticon.com/512/2165/2165797.png" alt="Hello Icon" width="24"/>
         </HeyThereBox>
-      <UserName><span>I'm</span> Aram Zadoyan</UserName>
+      <UserName><span>I'm</span> Aram</UserName>
         <Front>{'< Front - End Developer />'}</Front>
       </StyledUserName>
     </StyledHeader>

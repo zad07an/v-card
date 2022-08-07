@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
   justify-content: center;
   align-items: center;
   padding-top: 30px;
-  background: #5f23a5;
+  background: linear-gradient(to top, #C04C71, #FCBE67);
 
 
 
@@ -23,7 +23,7 @@ export const StyledFooter = styled.footer`
     font-size: 22px;
     font-weight: bold;
     font-family: tajawal;
-    color: #fffcff;
+    color: #fafafa;
   }
 
   ul {
@@ -36,7 +36,7 @@ export const StyledFooter = styled.footer`
 
   a {
     font-size: 30px;
-    color: #fffcff;
+    color: #fafafa;
   }
 
 
@@ -62,7 +62,7 @@ export const StyledFooter = styled.footer`
       font-size: 22px;
       font-weight: bold;
       font-family: tajawal;
-      color: #fffcff;
+      color: #fafafa;
     }
 
     ul {
@@ -75,7 +75,7 @@ export const StyledFooter = styled.footer`
 
     a {
       font-size: 30px;
-      color: #fffcff;
+      color: #fafafa;
     }
   }
 `
