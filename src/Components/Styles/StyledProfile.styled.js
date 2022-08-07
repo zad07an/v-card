@@ -6,7 +6,14 @@ const StyledProfile = styled.div`
   height: 200px;
   border-radius: 25%;
   overflow: hidden;
+  cursor: pointer;
+  transition: transform 400ms width 400ms height 400ms;
 
+	&.openPic{
+		width: 320px;
+		height: 320px;
+		margin-bottom: 30px;
+	}
 
 
 @media (max-width: 412px) {
@@ -21,12 +28,7 @@ const StyledProfile = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  transition: transform 0.4ms filter 0.4ms;
 
-  &:hover{
-    transform: scale(1.2);
-    filter: brightness(0.4);
-  }
 `
 
 export {StyledProfile, Image};
